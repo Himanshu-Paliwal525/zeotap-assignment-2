@@ -19,6 +19,7 @@ If you want to run the application locally:
 
 ## Clone the repository:
 git clone (https://github.com/Himanshu-Paliwal525/zeotap-assignment-2.git)
+
 cd your-project
 
 ## Install dependencies:
