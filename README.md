@@ -18,7 +18,7 @@ You don’t need to set up anything locally. The application is fully deployed, 
 If you want to run the application locally:
 
 ## Clone the repository:
-git clone https://github.com/your-repo-link
+git clone (https://github.com/Himanshu-Paliwal525/zeotap-assignment-2.git)
 cd your-project
 
 ## Install dependencies:
