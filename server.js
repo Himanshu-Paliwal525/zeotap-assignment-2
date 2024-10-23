@@ -87,7 +87,6 @@ app.get("/", (req, res) => {
 });
 app.get("/dailyChart", async (req, res) => {
     const data = await Model.find();
-    console.log(data);
     res.json(data);
 });
 let count = 0;
@@ -138,9 +137,7 @@ function myWeather() {
                     if (!cityWeather) {
                         const weatherinfo = new Model(newWeather);
                         await weatherinfo.save();
-                        console.log("Can't find so saved!");
-                    } else console.log("finded and updated!");
-                    console.log(newWeather);
+                    }
                 });
         }
         WeatherUpdate();
@@ -157,7 +154,6 @@ setInterval(() => {
         Model = CreateModel();
         console.log("new Model Created!");
     }
-    console.log(`SetInterval is called ${count} times`);
     myWeather();
     if (ThresholdCount == 2) {
         console.log(
