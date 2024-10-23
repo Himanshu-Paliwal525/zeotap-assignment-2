@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", async () => {
     const ctx = document.getElementById("myChart");
     let AllData = [];
-    await fetch("http://localhost:3000/dailyChart")
+    await fetch("https://zeotap-assignment-2.onrender.com/dailyChart")
         .then((response) => response.json())
         .then((data) => (AllData = data))
         .catch((err) => console.error(err));
