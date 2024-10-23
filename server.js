@@ -127,7 +127,7 @@ function myWeather() {
                         avg_temp: Cities[city].avg_temp,
                         feels_like: data.main.feels_like,
                         threshold: ThresholdTemp,
-                        dt: data.main.dt,
+                        dt: data.dt,
                     };
                 })
                 .then(async (newWeather) => {
