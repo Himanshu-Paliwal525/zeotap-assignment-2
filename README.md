@@ -1,7 +1,7 @@
 #  Real-Time Data Processing System for Weather Monitoring with Rollups and Aggregates
 
 ## Live Demo:
-You can access the deployed version of this project here.
+You can access the deployed version of this project (https://zeotap-assignment-2.onrender.com/).
 
 ## About:
 This is a real-time data processing system to monitor weather conditions and provide summarized insights using rollups and aggregates. The system will utilize data from the OpenWeatherMap API (https://openweathermap.org/).
